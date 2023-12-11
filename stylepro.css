@@ -1,0 +1,123 @@
+.sidebar{height:100%;width:100px;background-color:whitesmoke;position:fixed!important;z-index:1;overflow:auto}
+.bar-item{padding:8px 16px;float:left;width:auto;border:#000;display:block;outline:0}
+.xlarge{font-size:24px!important}
+.xxlarge{font-size:25px!important}
+.xxxlarge{font-size:32px!important}
+.teal{color:#ccccccf0!important;background-color:#009688!important}
+.border-right{border-right:1px solid #f5f5f5!important}
+.large{font-size:18px!important}
+.bar-block{width:15%;text-align:left;padding:8px 16px}
+.bar{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.bar .dropdown-hover{position:static;float:left}
+.button{white-space:normal}
+b
+.button {
+    background-color:whitesmoke;
+    border: none;
+    color: rgb(9, 4, 4); 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:whitesmoke;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  li a.active {
+    background-color:whitesmoke;
+    color:black;
+  }
+
+  li a:hover {
+    background-color: #555;
+    width:100%;
+    color: white;
+  }
+
+  .dropbtn {
+    background-color:whitesmoke;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:whitesmoke}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:whitesmoke;
+  }
+  
+  .font {
+    font-family: "Lucida Handwriting", fantasy;
+  }
+  .sidebar-icons {
+  font-size: 24px;
+  color: #333; 
+}
+  .search-box {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.mySlides {
+  height: 50%; 
+}
+.post-section {
+  width: 65%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.chat-box {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
